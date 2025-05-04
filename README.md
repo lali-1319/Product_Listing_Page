@@ -1,13 +1,76 @@
 # Product_Listing_Page
-Here's a **complete and detailed description** of your project based on the extracted structure, naming conventions, and standard practices in modern full-stack development:
-
----
 
 ## 🛍️ **Project Overview: Product Listing Web Application**
 
-This is a **modern, responsive e-commerce web application** built with **Next.js (App Router)** and styled using **Tailwind CSS**. The project is modular, scalable, and component-based. It serves as a product listing website where users can browse, filter, and interact with products. It may also include features like authentication, theming, toast notifications, and responsive design.
+This is a modern, responsive e-commerce web application built with Next.js (App Router) and styled using Tailwind CSS. The project is modular, scalable, and component-based. It serves as a product listing website where users can browse, filter, and interact with products. It may also include features like authentication, theming, toast notifications, and responsive design.
+## ✅ Prerequisites
+
+Before installing the project, make sure you have the following installed:
+
+You can install pnpm globally (if not already):
+
+```bash
+npm install -g pnpm
+``
+
+## 📦 Step-by-Step Installation
+
+### 1. **Download or Clone the Project**
+
+If you have a ZIP:
+
+* Extract the folder (e.g., `product-listing/`) to your workspace.
+
+If using Git:
+```bash
+git clone https://github.com/your-username/product-listing.git
+cd product-listing
+
+### 2. **Install Dependencies**
+
+Use `pnpm` to install all required packages:
+
+```bash
+pnpm install
+```
+
+This will read from the `package.json` and download dependencies like:
+
+* `next`
+* `react`
+* `tailwindcss`
+* `shadcn/ui`
+* Other component libraries
 
 ---
+
+### 3. **Run the Development Server**
+
+Start the app locally with:
+
+```bash
+pnpm dev
+```
+
+This runs the development server at:
+📍 [http://localhost:3000](http://localhost:3000)
+
+### 4. **Access the App**
+
+Open your browser and visit:
+http://localhost:3000
+``
+You should see the homepage. Try navigating to:
+
+* `/shop` — product grid with filters
+* `/about`, `/contact`, `/auth`, etc.
+* 
+### 🧪 Test It Works
+
+* Navigate to `/shop` and confirm products render
+* Toggle theme using the UI
+* Resize the window to test responsiveness
+* Submit contact/auth forms (if connected to a backend)
 
 ## 🧱 **Tech Stack**
 
@@ -167,6 +230,3 @@ Tailwind-based global CSS file, may overlap with `app/globals.css`.
 | Authentication    | Placeholder for login/register via `/auth`           |
 | API-Ready         | Fetch logic abstracted in `lib/api.ts`               |
 
----
-
-Would you like me to create a **visual architecture diagram** or a **PDF project report** based on this description?
